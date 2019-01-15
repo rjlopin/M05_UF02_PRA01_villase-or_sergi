@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Pràctica M05 UF02</title>
+	<meta name="author" content="Pere Casas Puig" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+<a href="https://github.com/alvarotrigo/fullPage.js" id="githubLink"><img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+<div style="position:fixed;top:50px;left:50px;color:white;z-index:999;" id="callbacksDiv"></div>
+
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Menú 1</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Menú 2</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Menú 3</a></li>
+</ul>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>Pràctica M04 UF02</h1>
+			<p></p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Iniciar i clonar el teu repo</h1>
+				<ul>
+					<li>Registrat en GitHub o Bitbucket</li>
+					<li>Crea el teu repositori en format públic</li>
+				</ul>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Clone, change && push</h1>
+			<ul>
+				<li>Clona aquest repositori</li>
+				<li>Fes les modificacions que toquin</li>
+				<li>Apunta el teu GIT al teu nou repositori</li>
+				<li>Ja pots fer push en aquella versió</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>FullPageJs</h1>
+			<p>Aquest exmple de web ha estat fet amb el software d'Albaro Trigo.</p>
+			<p>Pots visitar el seu GitHub: <a href="https://github.com/alvarotrigo/fullPage.js">visitar</a></p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+        responsiveWidth: 1100,
+        afterResponsive: function(isResponsive){
+
+        }
+
+    });
+</script>
+
+</body>
+</html>
