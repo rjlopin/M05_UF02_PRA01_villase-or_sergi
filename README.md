@@ -1,0 +1,2 @@
+- En la secció de descarregues trovaràs els apunts penjats fins al moment [Accés descarregues](https://bitbucket.org/pcasaspere/salle_m05/downloads/)
+- En la secció Wiki trobaràs la documentació: [Accés documentació](https://bitbucket.org/pcasaspere/salle_m05/wiki/)
