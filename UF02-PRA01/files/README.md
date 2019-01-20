@@ -1,0 +1,1 @@
+En aquest directori has de penjar el/s PDF amb totes les captures de la pràctica.
