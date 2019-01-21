@@ -7,7 +7,7 @@ Aquesta pràctica es separa amb dos parts  diferenciades. La primera part serà 
 
  - [7 punts] **Primera part:** 
 	- Us heu de registrar i posteriorment inicialitzar un repositori de GIT (públic) en alguna de les plataformes comentades (Bitbucket o Github). El repositori s'ha d'anomenar de la següent manera:
-		- M05_UF01_PRA01_**cognom_nom**
+		- M05_UF02_PRA01_**cognom_nom**
 	- Al final de la pràctica s'haurà de penjar la url per accedir en aquest repositori mitjançant la plataforma de La Salle.
 	- En aquest repositori hi ha un exemple de pàgina web amb HTML. Es demana que es cloni el repositori i de forma local es realitzin diverses modificacions:
     	- Afegir links als tres botons superiors esquerra que fan referència a *menú 1, menú 2 i menú 3*. Per consegüent s'han de crear les tres noves pàgines amb algun contingut HTML.
